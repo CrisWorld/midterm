@@ -1,0 +1,208 @@
+/* Header */
+body{
+    position: relative;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header{
+    display: flex;
+    position: relative;
+    position: sticky;
+    top:0;
+    max-width: 100%;
+    max-height: 100px;
+    height: 60px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  23px 23px 47px #b1b1b1,
+                 -23px -23px 47px #ffffff;
+    z-index: 2;
+}
+header .logo{
+    max-width: 100%;
+    width: 60%;
+}
+header .logo img{
+    margin: 4px;
+    max-width: 90px;
+    transition: 1s;
+}
+header .logo div .back{
+    background-color: aliceblue;
+    width: 70px;
+    height: 60px; 
+    position: absolute; 
+    top:0; z-index: -1; 
+    border-radius: 20px; 
+    opacity: 0%; 
+    transition: 1s;
+}
+header .logo div:hover img{
+    transform: translateX(30px);
+}
+header .logo div:hover .back{
+    opacity: 100%;
+    width: 100px;
+}
+header .menu{
+    right: 0;
+    display: flex;
+    max-height: 36px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header .menu .list{
+    display: flex;
+    max-height: 36px;
+    position: relative;
+}
+header .menu i:hover{
+    cursor: pointer;
+}
+header .menu .list a{
+    margin: auto 50px auto 50px;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    font-weight: 700;
+    box-shadow: none;
+}
+header .menu .list a:hover{
+    box-shadow:  20px 20px 40px #a6a6a6,
+             -20px -20px 40px #ffffff;
+    scale: 1.03;
+}
+/* Banner */
+.banner{
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+.banner img{
+    max-width: 100%;
+    width: 1600px;
+    height: 300px;
+    transition: 3s;
+}
+.banner img:hover{
+    width: 1780px;
+}
+/* Content */
+.main{
+    transition: 1s;
+    margin-left: 8%;
+    max-width: 50%;
+    color: white;
+    background: black;
+    box-shadow:  31px 31px 62px #b8b8b8,
+             -31px -31px 62px #ffffff;
+}
+.main .content-head{
+    height: 500px;
+    background-image: url(car.jpg);
+    background-position-y: center;
+    background-position-x: center;
+    background-size: 900px;
+    transition: 2s;
+}
+.main .content-head:hover{
+    background-size: 1100px;
+}
+.main .content-head:hover, .main{
+    box-shadow:  23px 23px 45px #8f8f8f,
+             -23px -23px 45px #ffffff;
+}
+.main .content-head h2{
+    padding: 40px;
+    font-size: 60px;
+}
+.main .content-head span{
+    padding: 40px;
+    font-size: 40px;
+}
+.main .content-body p{
+    padding: 40px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.main .content-footer{
+    border-top: 2px solid white;
+}
+.main .content-footer p{
+    padding: 40px;
+    line-height: 30px;
+}
+/* Aside */
+aside{
+    position: sticky;
+    top: 80px;
+    width: 34%;
+    height: 500px;
+    margin-left: 10px;
+    padding-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: inset 5px 5px 10px #cdcdcd,
+            inset -5px -5px 10px #ffffff;
+}
+aside span{
+    font-weight: 900;
+    font-size: 40px;
+}
+aside a i{
+    margin: 30px;
+    font-size: 70px;
+}
+aside a{
+    color: #a6a6a6;
+}
+/* Footer */
+footer{
+    margin: 0 10px 0 10px;   
+    margin-top: 100px;
+    max-width: 100%;
+    max-height: 200px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+footer .logo{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 100%;
+    height: 60px;
+}
+footer .follow{
+    margin-left: 30px;
+    position: relative;
+    text-align: center;
+    align-self: center;
+    font-weight: 800;
+    font-size: 40px;
+    color: black;
+}
+footer .icon{
+    align-self: center;
+    font-size: 50px;
+    margin-left: 30px;
+}
+footer .icon a{
+    color: black;
+    margin: 0 10px 0 10px;
+}
+footer .link{
+    position: relative;
+    align-self: center;
+    margin-left: 900px;
+}
+footer .link a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 0 30px 0 30px;
+}

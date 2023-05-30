@@ -1,0 +1,64 @@
+body{
+    background-color: whitesmoke;
+    position: relative;
+    max-width: 1920px;
+    max-height: 1200px;
+}
+form{
+    position: relative;
+    display: block;
+    height: 1200px;
+}
+form div{
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+span{
+    position: relative;
+    left: 30%;
+    font-size: 30px;
+    font-weight: 600;
+}
+form div div{
+    margin: 50px;
+    position: relative;
+    display: block;
+}
+input, label, option, textarea, select{
+    position: relative;
+    float: right;
+    right: 30%;
+}
+input{
+    height: 30px;
+    width: 400px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+input[type="text"]{
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.email, .password{
+    border-radius: 10px;
+}
+textarea{
+    height: 100px;
+    width: 400px;
+}
+.gender{
+    height: 80px;
+}
+.gender input{
+    width: 20px;
+    float: right;
+    margin-right: 200px;
+}
+select{
+    margin-right: 200px;
+    width: 200px;
+    height: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

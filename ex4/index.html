@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="active">
+        <div>
+            <div class="name">
+                <span>Full Name</span>
+                <input type="text" placeholder="Your full name..">
+            </div>
+            <div class="email">
+                <span>Email</span>
+                <input type="text" placeholder="Your email..">
+            </div>
+            <div class="phone">
+                <span>Phone</span>
+                <input type="text" placeholder="Your phone number..">
+            </div>
+            <div class="gender">
+                <span>Gender</span>
+                <input type="radio" id="gender" name="gender" value="Male">
+                <label for="gender">Male</label><br>
+                <input type="radio" id="gender" name="gender" value="Female">
+                <label for="gender">Female</label><br> <br>
+                <input type="radio" id="gender" name="gender" value="Other">
+                <label for="gender">Other</label>
+                
+            </div>
+            <div class="country">
+                <span>Country</span>
+                <select name="country" id="country">
+                    <option value="vietnam">
+                        Việt Nam
+                    </option>
+                    <option value="us">
+                        US
+                    </option>
+                    <option value="australia">
+                        Australia
+                    </option>
+                </select>
+            </div>
+            <div class="comment">
+                <span>Comment</span>
+                <textarea name="comment" id="comment" placeholder="Write something.."></textarea>
+            </div>
+            <div style="display: flex;">
+                <input type="submit" value="Summit" style="margin-top: 60px; left: 73%; width: 100px;">
+                <input type="reset" value="Reset" style="margin-top: 60px; margin-left: 30px; left: 73%; width: 100px;">
+            </div>
+        </div>
+    </form>
+</body>
+</html>
